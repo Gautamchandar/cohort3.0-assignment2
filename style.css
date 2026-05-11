@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jura:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Playwrite+IN:wght@100..400&family=Playwrite+VN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/* #head-winter{
+    background-color: aquamarine;
+} */
+.winter-drop {
+    color: grey;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.new-collection {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.new-collection h1 {
+    text-transform: uppercase;
+    font-size: 70px;
+    word-spacing: 2px;
+}
+
+.new-collection .menu ul {
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.new-collection .menu ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+.new-collection .list4 {
+    display: flex;
+}
+
+#verticalline {
+    width: 1px;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    background-color: white;
+    position: relative;
+    right: 5%;
+    top: 20%;
+}
+
+.new-collection .list4 ul li {
+    list-style: none;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.new-collection #btnfilter {
+    margin-right: 100px;
+    border: 2px solid white;
+    height: 40px;
+    border-radius: 10px;
+    width: 130px;
+    background-color: rgb(35, 35, 35);
+}
+
+.new-collection #btnfilter img {
+    margin-left: 10px;
+    color: white;
+}
+
+#main {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#main .cardsimg img {
+    border-radius: 10px;
+}
+
+#main #card1 {
+    padding: 2px 10px;
+    background-color: rgb(22, 45, 54);
+    border-radius: 10px;
+}
+
+#main #card1 input {
+    margin-top: 12px;
+    padding: 2px;
+    margin-left: 5px;
+}
+#main #card1 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+}
+#main #card1 p {
+    font-weight: 200;
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 10px;
+    border: 2px solid white;
+    background-color: rgb(57, 57, 57);
+    position: relative;
+    top: 4%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin: 10px 20px;
+    padding: 10px 20px;
+}
+.foot .head1{
+    display: flex;
+}
+/* .foot .head1 .design {
+} */
+.foot .head1 img{
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 30%;
+}
+.footer-navbar{
+    margin: 10px 20px;
+    padding: 10px 20px;
+    background-color: rgb(45, 45, 45);
+    border-radius: 10px;
+}
+.footer-navbar .logo{
+    display: flex;
+    
+}
+.footer-navbar .navitem ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.footer-navbar .navitem ul li{
+    list-style: none;
+}
+
+.footer-navbar .social{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -20px;
+    gap: 20px;
+}
+
+.footer-navbar p{
+    display: inline;
+}
